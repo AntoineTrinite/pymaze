@@ -22,5 +22,5 @@ class Window:
     def close(self):
         self.__running = False
 
-    def draw_line(Line, fill_color):
-        Line.draw(Line, fill_color)
+    def draw_line(self, Line, fill_color):
+        Line.draw(self.__canvas, fill_color)
